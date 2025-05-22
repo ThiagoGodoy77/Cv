@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thiago Godoy - CV</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e, #16213e);
+      color: #f0f0f0;
+      padding: 2rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #00bcd4;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #b0bec5;
+    }
+
+    .section {
+      background: #222641;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 188, 212, 0.3);
+    }
+
+    h2 {
+      border-bottom: 2px solid #00bcd4;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1.5rem;
+      color: #00e5ff;
+    }
+
+    ul {
+      list-style-type: '✅ ';
+      padding-left: 1.5rem;
+    }
+
+    .contact p, .languages p {
+      margin: 0.3rem 0;
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .job, .education {
+      margin-bottom: 1rem;
+    }
+
+    .job h3, .education h3 {
+      color: #4dd0e1;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #00bcd4;
+      color: #000;
+      padding: 0.3rem 0.6rem;
+      border-radius: 15px;
+      font-size: 0.8rem;
+      margin-right: 0.5rem;
+    }
+
+    .icon {
+      font-size: 1.1rem;
+      margin-right: 0.5rem;
+      color: #00e5ff;
+    }
+
+    a {
+      color: #00e5ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 768px) {
+      .info-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Thiago Godoy</h1>
+    <p>💻 Informática & Tecnología</p>
+  </header>
+
+  <section class="section">
+    <h2>🧠 Perfil</h2>
+    <p>Tengo 25 años, actualmente estudiando la carrera de Ingeniería en Informática, realizando cursos de programación y nutriéndome de conocimiento en el ámbito de informática. Objetivo y empático con el área laboral donde me desempeñe.</p>
+  </section>
+
+  <section class="section">
+    <h2>📞 Contacto</h2>
+    <div class="info-grid">
+      <p><span class="icon">📧</span><a href="mailto:godoythiagoivan@gmail.com">godoythiagoivan@gmail.com</a></p>
+      <p><span class="icon">📱</span>1138548219</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>🛠️ Habilidades</h2>
+    <ul>
+      <li>Programación en <span class="badge">Python</span> <span class="badge">C</span> <span class="badge">C#</span></li>
+      <li>Diseño en Photoshop e Inkscape para vectorización</li>
+      <li>Diseño web con <span class="badge">HTML</span> <span class="badge">CSS</span> y <span class="badge">Adobe XD</span></li>
+      <li>Administración de redes (SQL, Wireshark)</li>
+      <li>Modelado con UML</li>
+      <li>Gestión de archivos <span class="badge">JSON</span></li>
+      <li>Uso de <span class="badge">Power BI</span> y <span class="badge">AutoCAD</span></li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>🌍 Idiomas</h2>
+    <div class="info-grid languages">
+      <p><span class="badge">Español</span> (Nativo)</p>
+      <p><span class="badge">Inglés</span> (Medio)</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>💼 Experiencia Laboral</h2>
+    <div class="job">
+      <h3>DIMEVA – Administración en Centro de Diagnóstico</h3>
+      <p><strong>Florencio Varela</strong> — Mayo 2023 - Actualidad</p>
+      <p>Gestión de datos personales para mejorar la experiencia del paciente. El mismo cuenta con equipos de: Resonancia magnética, tomografía, densitometría y mamografia.</p>
+    </div>
+    <div class="job">
+      <h3>MEGATRANS S.A – Software especializado</h3>
+      <p>Marzo 2022 - Mayo 2022</p>
+      <p>Desarrollo de sistemas propietarios de alarmas. Contacto: 1121907343 (Paola Sulkies – RRHH).</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>🎓 Educación</h2>
+    <div class="education">
+      <h3>Universidad Nacional Arturo Jauretche</h3>
+      <p>Ingeniería en Informática — 2017 - Actualidad</p>
+      <p>Cursando materias de cuarto año.</p>
+    </div>
+    <div class="education">
+      <h3>Escuela María Elena Walsh</h3>
+      <p>Educación primaria y secundaria — 2011 - 2017</p>
+      <p>Florencio Varela.</p>
+    </div>
+  </section>
+
+</body>
+</html>
